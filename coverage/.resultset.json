@@ -34,6 +34,33 @@
   },
   "Unit Tests": {
     "coverage": {
+      "/Users/matthewfang1999/Desktop/lab5-choretracker-starter-master/app/models/child.rb": [
+        1,
+        null,
+        3,
+        2,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        3,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/Users/matthewfang1999/Desktop/lab5-choretracker-starter-master/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
       "/Users/matthewfang1999/Desktop/lab5-choretracker-starter-master/app/models/chore.rb": [
         1,
         null,
@@ -68,11 +95,6 @@
         null,
         null
       ],
-      "/Users/matthewfang1999/Desktop/lab5-choretracker-starter-master/app/models/application_record.rb": [
-        1,
-        1,
-        null
-      ],
       "/Users/matthewfang1999/Desktop/lab5-choretracker-starter-master/app/models/task.rb": [
         1,
         null,
@@ -82,26 +104,8 @@
         1,
         1,
         null,
-        1,
-        1,
-        null
-      ],
-      "/Users/matthewfang1999/Desktop/lab5-choretracker-starter-master/app/models/child.rb": [
-        1,
-        null,
-        1,
-        1,
-        null,
-        1,
-        1,
-        null,
-        1,
-        null,
-        1,
-        null,
-        0,
-        null,
-        null,
+        3,
+        2,
         null
       ],
       "/Users/matthewfang1999/Desktop/lab5-choretracker-starter-master/app/controllers/application_controller.rb": [
@@ -356,6 +360,6 @@
         0
       ]
     },
-    "timestamp": 1612549063
+    "timestamp": 1612549334
   }
 }

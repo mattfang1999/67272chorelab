@@ -1,10 +1,6 @@
 require 'test_helper'
 
 class TaskTest < ActiveSupport::TestCase
-
-    require 'test_helper'
-
-class TaskTest < ActiveSupport::TestCase
   should have_many(:chores)
   should have_many(:children).through(:chores)
   should validate_presence_of(:name)
@@ -33,6 +29,4 @@ class TaskTest < ActiveSupport::TestCase
       assert_equal ["Mow grass", "Shovel driveway", "Sweep floor", "Wash dishes"], Task.active.alphabetical.map{|t| t.name}
     end
   end
-end
-
 end

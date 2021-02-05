@@ -1,10 +1,6 @@
 require 'test_helper'
 
 class ChoreTest < ActiveSupport::TestCase
-
-    require 'test_helper'
-
-class ChoreTest < ActiveSupport::TestCase
   should belong_to(:child)
   should belong_to(:task)
   should allow_value(1.day.from_now.to_date).for(:due_on)
@@ -27,7 +23,6 @@ class ChoreTest < ActiveSupport::TestCase
     end
 
     should "has a scope to order alphabetically by task name" do
-      
       assert_equal ["Shovel driveway","Sweep floor","Sweep floor","Sweep floor", "Wash dishes","Wash dishes","Wash dishes"], Chore.by_task.map{|c| c.task.name}
     end
 
@@ -59,6 +54,4 @@ class ChoreTest < ActiveSupport::TestCase
       assert_equal "Pending", @mc1.status
     end
   end
-end
-
 end
